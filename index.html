@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>住吉スーパー特売チェッカー</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>住吉スーパー特売チェッカー</h1>
+    <p class="sub">ダイレックス / イオン / マルキョウ / ジョイフルサン</p>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <div class="row">
+        <span class="label">部門</span>
+        <select id="categorySelect"></select>
+      </div>
+
+      <div class="row">
+        <span class="label">店舗</span>
+        <select id="storeSelect"></select>
+        <label class="check">
+          <input type="checkbox" id="onlyCheapest" />
+          最安だけ表示
+        </label>
+      </div>
+      
+    </section>
+
+    <section class="panel">
+      <h2 id="resultTitle">結果</h2>
+      <div id="result" class="grid"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
