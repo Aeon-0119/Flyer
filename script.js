@@ -13,7 +13,7 @@ const STORES = [
   { id: "joy", name: "ジョイフルサン" },
 ];
 
-const CATEGORIES = ["青果", "鮮魚", "精肉", "食品"];
+const CATEGORIES = ["青果", "鮮魚", "精肉", "食品","飲料", "菓子", "冷凍食品・パン", "日配", "お酒"];
 
 const ITEMS = [
   { storeId: "dai", category: "食品", name: "お茶 伊右衛門", price: 149, unit: "1本", dateTo: "2026-01-05", note: "まで", image: "images/iemon.jpg" },
@@ -47,21 +47,21 @@ const ITEMS = [
   { storeId:"aeon", category:"食品", group:"ポポロスパ 結束", flavor:"7分", name:"はごろもフーズ ポポロスパ", price:178, unit:"80g×6", dateTo:"2026-01-31", note:"まで", image:"images/popo_7.jpg" },
   { storeId:"aeon", category:"食品", group:"ハウス こくまろカレー", flavor:"甘口", name:"ハウス こくまろカレー", price:178, unit:"140g", dateTo:"2026-01-31", note:"まで", image:"images/hausu_amakuchi.jpg" },
   { storeId:"aeon", category:"食品", group:"ハウス こくまろカレー", flavor:"中辛", name:"ハウス こくまろカレー", price:178, unit:"140g", dateTo:"2026-01-31", note:"まで", image:"images/hausu_chukara.jpg" },
-  { storeId: "marukyo", category: "青果", name: "大根", price: 164, unit: "1本" ,dateTo:"2026-01-31", note:"まで",},         
-  { storeId: "marukyo", category: "青果", name: "にら", price: 164, unit: "1束",dateTo:"2026-01-31", note:"まで",},         
-  { storeId: "marukyo", category: "青果", name: "白ねぎ", price: 164, unit: "1束",dateTo:"2026-01-31", note:"まで", },        
-  { storeId: "marukyo", category: "青果", name: "サンふじりんご", price: 219, unit: "2玉" ,dateTo:"2026-01-31", note:"まで",},
-  { storeId: "marukyo", category: "青果", name: "みかん", price: 659, unit: "1袋", dateTo:"2026-01-31", note:"まで",},        
-  { storeId: "marukyo", category: "青果", name: "白菜", price: 109, unit: "1/4カット" ,dateTo:"2026-01-31", note:"まで",},    
-  { storeId: "marukyo", category: "精肉", name: "豚ロース切身", price: 175, unit: "100g",dateTo:"2026-01-31", note:"まで", },   
-  { storeId: "marukyo", category: "精肉", name: "豚バラスライス", price: 219, unit: "100g" ,dateTo:"2026-01-31", note:"まで",}, 
-  { storeId: "marukyo", category: "精肉", name: "牛モモスライス", price: 1089, unit: "330g" ,dateTo:"2026-01-31", note:"まで",}, 
-  { storeId: "marukyo", category: "鮮魚", name: "真だら切身", price: 208, unit: "100g" ,dateTo:"2026-01-31", note:"まで",},  
-  { storeId: "marukyo", category: "鮮魚", name: "生たら白子", price: 274, unit: "1パック",dateTo:"2026-01-31", note:"まで", },
-  { storeId: "marukyo", category: "食品", name: "ホクトぶなしめじ", price: 131, unit: "1袋", dateTo:"2026-01-31", note:"まで",}, 
-  { storeId: "marukyo", category: "食品", name: "鍋用スープ", price: 329, unit: "1袋",dateTo:"2026-01-31", note:"まで", },     
-  { storeId: "marukyo", category: "食品", name: "おでんの素", price: 109, unit: "1袋", dateTo:"2026-01-31", note:"まで",},   
-  { storeId: "marukyo", category: "食品", name: "大寒たまご", price: 550, unit: "2個",dateTo:"2026-01-31", note:"まで", },
+  { storeId: "maru", category: "青果", name: "大根", price: 164, unit: "1本" ,dateTo:"2026-01-31", note:"まで",},         
+  { storeId: "maru", category: "青果", name: "にら", price: 164, unit: "1束",dateTo:"2026-01-31", note:"まで",},         
+  { storeId: "maru", category: "青果", name: "白ねぎ", price: 164, unit: "1束",dateTo:"2026-01-31", note:"まで", },        
+  { storeId: "maru", category: "青果", name: "サンふじりんご", price: 219, unit: "2玉" ,dateTo:"2026-01-31", note:"まで",},
+  { storeId: "maru", category: "青果", name: "みかん", price: 659, unit: "1袋", dateTo:"2026-01-31", note:"まで",},        
+  { storeId: "maru", category: "青果", name: "白菜", price: 109, unit: "1/4カット" ,dateTo:"2026-01-31", note:"まで",},    
+  { storeId: "maru", category: "精肉", name: "豚ロース切身", price: 175, unit: "100g",dateTo:"2026-01-31", note:"まで", },   
+  { storeId: "maru", category: "精肉", name: "豚バラスライス", price: 219, unit: "100g" ,dateTo:"2026-01-31", note:"まで",}, 
+  { storeId: "maru", category: "精肉", name: "牛モモスライス", price: 1089, unit: "330g" ,dateTo:"2026-01-31", note:"まで",}, 
+  { storeId: "maru", category: "鮮魚", name: "真だら切身", price: 208, unit: "100g" ,dateTo:"2026-01-31", note:"まで",},  
+  { storeId: "maru", category: "鮮魚", name: "生たら白子", price: 274, unit: "1パック",dateTo:"2026-01-31", note:"まで", },
+  { storeId: "maru", category: "食品", name: "ホクトぶなしめじ", price: 131, unit: "1袋", dateTo:"2026-01-31", note:"まで",}, 
+  { storeId: "maru", category: "食品", name: "鍋用スープ", price: 329, unit: "1袋",dateTo:"2026-01-31", note:"まで", },     
+  { storeId: "maru", category: "食品", name: "おでんの素", price: 109, unit: "1袋", dateTo:"2026-01-31", note:"まで",},   
+  { storeId: "maru", category: "食品", name: "大寒たまご", price: 550, unit: "2個",dateTo:"2026-01-31", note:"まで", },
 
 ];
 
