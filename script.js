@@ -62,7 +62,26 @@ const ITEMS = [
   { storeId: "maru", category: "食品", name: "鍋用スープ", price: 329, unit: "1袋",dateTo:"2026-01-31", note:"まで", },     
   { storeId: "maru", category: "食品", name: "おでんの素", price: 109, unit: "1袋", dateTo:"2026-01-31", note:"まで",},   
   { storeId: "maru", category: "食品", name: "大寒たまご", price: 550, unit: "2個",dateTo:"2026-01-31", note:"まで", },
-
+  { storeId: "dai",category:"食品",group:"カップ麺",name:"マルちゃん 正麺",price:333,unit:"各種",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"食品",group:"カップ麺",name:"日清 カップヌードル",price:110,unit:"各種",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"食品",group:"袋麺",name:"サッポロ一番 5食入",price:333,unit:"5食",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"食品",group:"調味料",name:"丸美屋 麻婆豆腐の素",price:120,unit:"各種",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"菓子",group:"ポテトチップス",name:"ポテトチップス うすしお",price:120,unit:"1袋",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"菓子",group:"チョコレート",name:"チョコレート効果",price:231,unit:"1箱",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"菓子",group:"コーンスナック",name:"とんがりコーン",price:120,unit:"1箱",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"菓子",group:"チョコ菓子",name:"ブラックサンダー",price:83,unit:"1本",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"飲料",group:"お茶",name:"お〜いお茶",price:120,unit:"600ml",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"飲料",group:"炭酸",name:"コカ・コーラ",price:92,unit:"700ml",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"飲料",group:"健康飲料",name:"キリン iMUSE",price:698,unit:"1000ml×6",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"冷凍食品・パン",group:"冷凍餃子",name:"大阪王将 羽根つき餃子",price:218,unit:"1袋",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"冷凍食品・パン",group:"冷凍うどん",name:"冷凍うどん",price:147,unit:"5食",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"冷凍食品・パン",group:"食パン",name:"食パン 6枚切",price:92,unit:"1袋",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"日配",group:"納豆",name:"国産小粒納豆",price:91,unit:"3パック",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"日配",group:"豆腐",name:"絹ごし豆腐",price:91,unit:"1丁",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"日配",group:"ヨーグルト",name:"R-1 ヨーグルト",price:420,unit:"3個",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"お酒",group:"発泡酒",name:"淡麗グリーンラベル",price:799,unit:"350ml×6",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"お酒",group:"ビール",name:"金麦",price:896,unit:"350ml×6",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"お酒",group:"日本酒",name:"月桂冠",price:1399,unit:"1.8L",dateTo:"2026-01-31", note:"まで",},
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
