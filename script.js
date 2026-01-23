@@ -59,7 +59,6 @@ const ITEMS = [
   {storeId:  "dai",category:"食品",group:"カップ麺",name:"日清 カップヌードル",price:110,unit:"各種",dateTo:"2026-01-31", note:"まで",},
   {storeId:  "dai",category:"食品",group:"袋麺",name:"サッポロ一番 5食入",price:333,unit:"5食",dateTo:"2026-01-31", note:"まで",},
   {storeId:  "dai",category:"食品",group:"調味料",name:"丸美屋 麻婆豆腐の素",price:120,unit:"各種",dateTo:"2026-01-31", note:"まで",},
-  {storeId:  "dai",category:"菓子",group:"ポテトチップス",name:"ポテトチップス うすしお",price:120,unit:"1袋",dateTo:"2026-01-31", note:"まで",},
   {storeId: "dai", category:"菓子", group:"プチコーン", flavor:"直火焼きトウモロコシ", name:"プチコーン",price:89, unit:"1袋",dateTo:"2026-01-31", note:"まで",},
   {storeId: "dai", category:"菓子", group:"プチコーン", flavor:"コーンマヨ", name:"プチコーン", price:89, unit:"1袋", dateTo:"2026-01-31", note:"まで",},
   {storeId: "dai", category:"菓子", group:"クリスプ", flavor:"うましお", name:"クリスプ", price:89, unit:"1袋", dateTo:"2026-01-31",  note:"まで",},
@@ -77,7 +76,7 @@ const ITEMS = [
   {storeId:  "dai",category:"日配",group:"ヨーグルト",name:"ダノンビオ",price:420,unit:"75g×4",dateTo:"2026-01-31", note:"まで", image:"1615075_original.jpg"},
   {storeId:  "dai",category:"お酒",group:"発泡酒",name:"淡麗グリーンラベル",price:878,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"rpt20140210047.jpg"},
   {storeId:  "dai",category:"お酒",group:"ビール",name:"晴れ風",price:1108,unit:"350ml×6",dateTo:"2026-01-31", note:"まで",　image:"021741b.jpg"},
-  {storeId:  "dai",category:"お酒",group:"日本酒",name:"月桂冠",price:1538,unit:"3L",dateTo:"2026-01-31", note:"まで", image:"4901030146019_01.jpg"},
+  {storeId:  "dai",category:"お酒",group:"日本酒",name:"月桂冠",price:1538,unit:"3L",dateTo:"2026-01-31", note:"まで", image:"4901030146019_01.jpg"}
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
