@@ -70,12 +70,11 @@ const ITEMS = [
   {storeId:  "dai",category:"冷凍食品・パン",group:"冷凍餃子",name:"大阪王将 羽根つき餃子",price:218,unit:"1袋",dateTo:"2026-01-31", note:"まで",},
   {storeId:  "dai",category:"冷凍食品・パン",group:"冷凍うどん",name:"冷凍うどん",price:147,unit:"5食",dateTo:"2026-01-31", note:"まで",},
   {storeId:  "dai",category:"冷凍食品・パン",group:"食パン",name:"食パン 6枚切",price:92,unit:"1袋",dateTo:"2026-01-31", note:"まで",},
-  {storeId:  "dai",category:"日配",group:"納豆",name:"国産小粒納豆",price:91,unit:"3パック",dateTo:"2026-01-31", note:"まで",},
-  {storeId:  "dai",category:"日配",group:"豆腐",name:"絹ごし豆腐",price:91,unit:"1丁",dateTo:"2026-01-31", note:"まで",},
-  {storeId:  "dai",category:"日配",group:"ヨーグルト",name:"R-1 ヨーグルト",price:420,unit:"3個",dateTo:"2026-01-31", note:"まで",},
-  {storeId:  "dai",category:"お酒",group:"発泡酒",name:"淡麗グリーンラベル",price:799,unit:"350ml×6",dateTo:"2026-01-31", note:"まで",},
-  {storeId:  "dai",category:"お酒",group:"ビール",name:"金麦",price:896,unit:"350ml×6",dateTo:"2026-01-31", note:"まで",},
-  {storeId:  "dai",category:"お酒",group:"日本酒",name:"月桂冠",price:1399,unit:"1.8L",dateTo:"2026-01-31", note:"まで",},
+  {storeId:  "dai",category:"日配",group:"ウインナー",name:"あらびきウインナー",price:238,unit:"80g×2",dateTo:"2026-01-31", note:"まで",　image"2828131.jpg"},
+  {storeId:  "dai",category:"日配",group:"ヨーグルト",name:"ダノンビオ",price:420,unit:"75g×4",dateTo:"2026-01-31", note:"まで", image:"1615075_original.jpg"},
+  {storeId:  "dai",category:"お酒",group:"発泡酒",name:"淡麗グリーンラベル",price:878,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"rpt20140210047.jpg"},
+  {storeId:  "dai",category:"お酒",group:"ビール",name:"晴れ風",price:1108,unit:"350ml×6",dateTo:"2026-01-31", note:"まで",　image:"021741b.jpg"},
+  {storeId:  "dai",category:"お酒",group:"日本酒",name:"月桂冠",price:1538,unit:"3L",dateTo:"2026-01-31", note:"まで", image:"4901030146019_01.jpg"},
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
