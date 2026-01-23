@@ -54,8 +54,8 @@ const ITEMS = [
   { storeId: "maru", category: "精肉", name: "豚バラスライス", price: 214, unit: "100g" ,dateTo:"2026-01-31", note:"まで", image:"images/k00340005_3.jpg" }, 
   { storeId: "maru", category: "精肉", name: "牛モモスライス", price: 1069, unit: "330g" ,dateTo:"2026-01-31", note:"まで", image:"images/momo_shoulder_3001-740×540.jpg" }, 
   { storeId: "maru", category: "鮮魚", name: "真だら切身", price: 204, unit: "100g" ,dateTo:"2026-01-31", note:"まで", image:"images/madarakirimi.jpg" },  
-  { storeId: "maru", category: "食品", name: "ホクトぶなしめじ", price: 128, unit: "1袋", dateTo:"2026-01-31", note:"まで", image:"images/814HI-UtusS._AC_SX342_.jpg" }, 
-  { storeId: "maru", category: "食品", name: "鍋用スープ", price: 322, unit: "1袋",dateTo:"2026-01-31", dateTo:"2026-01-31", note:"まで", image:"images/71f1U10xRJL.AC_SL1500_.jpg" },
+  { storeId: "maru", category: "食品", name: "ホクトぶなしめじ", price: 128, unit: "1袋", dateTo:"2026-01-31", note:"まで", image:"images/814HI-UtusS._AC_SX342.jpg" }, 
+  { storeId: "maru", category: "食品", name: "鍋用スープ", price: 322, unit: "1袋",dateTo:"2026-01-31", dateTo:"2026-01-31", note:"まで", image:"images/71f1U10xRJL.AC_SL1500.jpg" },
   {storeId:  "dai",category:"食品",group:"カップ麺",name:"日清 カップヌードル",price:110,unit:"各種",dateTo:"2026-01-31", note:"まで",},
   {storeId:  "dai",category:"食品",group:"袋麺",name:"サッポロ一番 5食入",price:333,unit:"5食",dateTo:"2026-01-31", note:"まで",},
   {storeId:  "dai",category:"食品",group:"調味料",name:"丸美屋 麻婆豆腐の素",price:120,unit:"各種",dateTo:"2026-01-31", note:"まで",},
@@ -69,12 +69,12 @@ const ITEMS = [
   {storeId:  "dai",category:"飲料",group:"お茶",name:"お〜いお茶",price:129,unit:"2L",dateTo:"2026-01-31", note:"まで", image:"images/f809f9780a8d3369b08f347e7383775e.jpg"},
   {storeId:  "dai",category:"飲料",group:"炭酸",name:"コカ・コーラ",price:99,unit:"700ml",dateTo:"2026-01-31", note:"まで", image:"images/tanomail_9627095.jpg"},
   {storeId:  "dai",category:"冷凍食品・パン",group:"冷凍パスタ",name:"大盛りスパゲッティ",price:198,unit:"1袋",dateTo:"2026-01-31", note:"まで", image:"images/4902110281668.jpg"},
-  {storeId:  "dai",category:"冷凍食品・パン",group:"冷凍おかず",name:"若鶏たれづけ唐揚げ",price:378,unit:"260g",dateTo:"2026-01-31", note:"まで",　image:"images/compass1683474414.jpg"},
-  {storeId:  "dai",category:"冷凍食品・パン",group:"菓心堂",name:"三角カステラ風蒸しケーキ",price:99,unit:"1個",dateTo:"2026-01-31", note:"まで",　image:"images/2040__5LiJ6KeS44Kr44K544OG44Op6aKo6JK444GX44Kx44O844Kt77y-MjMwN1JO.jpg"},
-  {storeId:  "dai",category:"日配",group:"ウインナー",name:"あらびきウインナー",price:238,unit:"80g×2",dateTo:"2026-01-31", note:"まで",　image:"images/2828131.jpg"},
+  {storeId:  "dai",category:"冷凍食品・パン",group:"冷凍おかず",name:"若鶏たれづけ唐揚げ",price:378,unit:"260g",dateTo:"2026-01-31", note:"まで", image:"images/compass1683474414.jpg"},
+  {storeId:  "dai",category:"冷凍食品・パン",group:"菓心堂",name:"三角カステラ風蒸しケーキ",price:99,unit:"1個",dateTo:"2026-01-31", note:"まで", image:"images/2040__5LiJ6KeS44Kr44K544OG44Op6aKo6JK444GX44Kx44O844Kt77y-MjMwN1JO.jpg"},
+  {storeId:  "dai",category:"日配",group:"ウインナー",name:"あらびきウインナー",price:238,unit:"80g×2",dateTo:"2026-01-31", note:"まで", image:"images/2828131.jpg"},
   {storeId:  "dai",category:"日配",group:"ヨーグルト",name:"ダノンビオ",price:420,unit:"75g×4",dateTo:"2026-01-31", note:"まで", image:"images/1615075_original.jpg"},
   {storeId:  "dai",category:"お酒",group:"発泡酒",name:"淡麗グリーンラベル",price:878,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"images/rpt20140210047.jpg"},
-  {storeId:  "dai",category:"お酒",group:"ビール",name:"晴れ風",price:1108,unit:"350ml×6",dateTo:"2026-01-31", note:"まで",　image:"images/021741b.jpg"},
+  {storeId:  "dai",category:"お酒",group:"ビール",name:"晴れ風",price:1108,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"images/021741b.jpg"},
   {storeId:  "dai",category:"お酒",group:"日本酒",name:"月桂冠",price:1538,unit:"3L",dateTo:"2026-01-31", note:"まで", image:"images/4901030146019_01.jpg"}
 ];
 
