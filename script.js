@@ -10,7 +10,6 @@ const STORES = [
   { id: "dai", name: "ダイレックス" },
   { id: "aeon", name: "イオン" },
   { id: "maru", name: "マルキョウ" },
-  { id: "joy", name: "ジョイフルサン" },
 ];
 
 const CATEGORIES = ["青果", "鮮魚", "精肉", "食品","飲料", "菓子", "冷凍食品・パン", "日配", "お酒"];
@@ -22,8 +21,6 @@ const ITEMS = [
   { storeId: "aeon", category: "青果", name: "バナナ", price: 213, unit: "1袋", dateTo: "2026-01-06", note: "限定", image: "images/banana.jpg" },
   { storeId: "maru", category: "青果", name: "ピーマン", price: 106, unit: "1袋", dateTo: "2026-01-06", note: "まで", image: "images/pi-man.jpg" },
   { storeId: "maru", category: "食品", name: "パン", price: 138, unit: "1個", dateTo: "2026-01-06", note: "まで" },
-  { storeId: "joy", category: "精肉", name: "牛肉 切り落とし", price: 365, unit: "100g", dateTo: "2026-01-02", note: "限定" },
-  { storeId: "joy", category: "青果", name: "ぶなしめじ", price: 138, unit: "1袋", dateTo: "2026-01-02", note: "限定" },
   { storeId:"aeon", category:"食品", group:"丸美屋 麻婆豆腐の素", flavor:"甘口", price:178, unit:"162g", dateTo:"2026-01-31", note:"まで", image:"images/mabo_amakuchi.jpg" },
   { storeId:"aeon", category:"食品", group:"丸美屋 麻婆豆腐の素", flavor:"中辛", price:178, unit:"162g", dateTo:"2026-01-31", note:"まで", image:"images/mabo_chukara.jpg" },
   { storeId:"aeon", category:"菓子", group:"明治 チョコレート", flavor:"マカダミア", name:"明治 マカダミアチョコレート", price:268, unit:"各種", dateTo:"2026-01-31", note:"まで", image:"images/meiji_maka.jpg" },
