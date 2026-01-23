@@ -25,7 +25,7 @@ const ITEMS = [
   { storeId:"aeon", category:"食品", group:"丸美屋 麻婆豆腐の素", flavor:"中辛", price:178, unit:"162g", dateTo:"2026-01-31", note:"まで", image:"images/mabo_chukara.jpg" },
   { storeId:"aeon", category:"菓子", group:"明治 チョコレート", flavor:"マカダミア", name:"明治 マカダミアチョコレート", price:268, unit:"各種", dateTo:"2026-01-31", note:"まで", image:"images/meiji_maka.jpg" },
   { storeId:"aeon", category:"菓子", group:"明治 チョコレート", flavor:"アーモンド", name:"明治 アーモンドチョコレート",   price:268, unit:"各種", dateTo:"2026-01-31", note:"まで", image:"images/meiji_amo.jpg" },
-  { storeId:"aeon", category:"菓子”, group:"東ハト ポテコ", flavor:"うましお", name:"東ハト ポテコ", price:98, unit:"各種", dateTo:"2026-01-31", note:"まで", image:"images/po_umashio.jpg" },
+  { storeId:"aeon", category:"菓子", group:"東ハト ポテコ", flavor:"うましお", name:"東ハト ポテコ", price:98, unit:"各種", dateTo:"2026-01-31", note:"まで", image:"images/po_umashio.jpg" },
   { storeId:"aeon", category:"菓子", group:"東ハト ポテコ", flavor:"コンソメ", name:"東ハト ポテコ", price:98, unit:"各種", dateTo:"2026-01-31", note:"まで", image:"images/po_konsome.jpg" },
   { storeId:"aeon", category:"菓子", group:"亀田のうす焼", flavor:"サラダ", name:"亀田製菓 亀田のうす焼", price:128, unit:"各種", dateTo:"2026-01-31", note:"まで", image:"images/ka_sarada.jpg" },
   { storeId:"aeon", category:"菓子", group:"亀田のうす焼", flavor:"えび",   name:"亀田製菓 亀田のうす焼", price:128, unit:"各種", dateTo:"2026-01-31", note:"まで", image:"images/ka_ebi.jpg" },
