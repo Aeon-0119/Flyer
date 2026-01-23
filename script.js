@@ -44,7 +44,7 @@ const ITEMS = [
   { storeId:"aeon", category:"食品", group:"ポポロスパ 結束", flavor:"7分", name:"はごろもフーズ ポポロスパ", price:178, unit:"80g×6", dateTo:"2026-01-31", note:"まで", image:"images/popo_7.jpg" },
   { storeId:"aeon", category:"食品", group:"ハウス こくまろカレー", flavor:"甘口", name:"ハウス こくまろカレー", price:178, unit:"140g", dateTo:"2026-01-31", note:"まで", image:"images/hausu_amakuchi.jpg" },
   { storeId:"aeon", category:"食品", group:"ハウス こくまろカレー", flavor:"中辛", name:"ハウス こくまろカレー", price:178, unit:"140g", dateTo:"2026-01-31", note:"まで", image:"images/hausu_chukara.jpg" },
-  { storeId: "maru", category: "青果", name: "大根", price: 164, unit: "1本" ,dateTo:"2026-01-31", note:"まで",},         
+  { storeId: "maru", category: "青果", name: "大根", price: 164, unit: "1本" ,dateTo:"2026-01-31", note:"まで", ", image:"original.jpg"},         
   { storeId: "maru", category: "青果", name: "にら", price: 164, unit: "1束",dateTo:"2026-01-31", note:"まで",},         
   { storeId: "maru", category: "青果", name: "白ねぎ", price: 164, unit: "1束",dateTo:"2026-01-31", note:"まで", },        
   { storeId: "maru", category: "青果", name: "サンふじりんご", price: 219, unit: "2玉" ,dateTo:"2026-01-31", note:"まで",},
