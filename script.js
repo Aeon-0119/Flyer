@@ -63,20 +63,19 @@ const ITEMS = [
   {storeId: "dai", category:"菓子", group:"プチコーン", flavor:"コーンマヨ", name:"プチコーン", price:89, unit:"1袋", dateTo:"2026-01-31", note:"まで",},
   {storeId: "dai", category:"菓子", group:"クリスプ", flavor:"うましお", name:"クリスプ", price:89, unit:"1袋", dateTo:"2026-01-31",  note:"まで",},
   {storeId: "dai", category:"菓子", group:"クリスプ", flavor:"旨味コンソメ", name:"クリスプ", price:89, unit:"1袋", dateTo:"2026-01-31", note:"まで",},
-  {storeId: "dai", category:"菓子", group:"フルグラ", flavor:"プレーン", name:"フルグラ", price:649, unit:"700g", 
   {storeId:  "dai",category:"菓子",group:"チョコレート",name:"チョコレート効果",price:231,unit:"1箱",dateTo:"2026-01-31", note:"まで",},
   {storeId:  "dai",category:"菓子",group:"コーンスナック",name:"とんがりコーン",price:120,unit:"1箱",dateTo:"2026-01-31", note:"まで",},
   {storeId:  "dai",category:"菓子",group:"チョコ菓子",name:"ブラックサンダー",price:83,unit:"1本",dateTo:"2026-01-31", note:"まで",},
-  {storeId:  "dai",category:"飲料",group:"お茶",name:"お〜いお茶",price:129,unit:"2L",dateTo:"2026-01-31", note:"まで", image:"f809f9780a8d3369b08f347e7383775e.jpg"},
-  {storeId:  "dai",category:"飲料",group:"炭酸",name:"コカ・コーラ",price:99,unit:"700ml",dateTo:"2026-01-31", note:"まで", image:"tanomail_9627095.jpg"},
-  {storeId:  "dai",category:"冷凍食品・パン",group:"冷凍パスタ",name:"大盛りスパゲッティ",price:198,unit:"1袋",dateTo:"2026-01-31", note:"まで", image:"4902110281668.jpg"},
-  {storeId:  "dai",category:"冷凍食品・パン",group:"冷凍おかず",name:"若鶏たれづけ唐揚げ",price:378,unit:"260g",dateTo:"2026-01-31", note:"まで",　image:"compass1683474414.jpg"},
-  {storeId:  "dai",category:"冷凍食品・パン",group:"菓心堂",name:"三角カステラ風蒸しケーキ",price:99,unit:"1個",dateTo:"2026-01-31", note:"まで",　image:"2040__5LiJ6KeS44Kr44K544OG44Op6aKo6JK444GX44Kx44O844Kt77y-MjMwN1JO.jpg"},
-  {storeId:  "dai",category:"日配",group:"ウインナー",name:"あらびきウインナー",price:238,unit:"80g×2",dateTo:"2026-01-31", note:"まで",　image"2828131.jpg"},
-  {storeId:  "dai",category:"日配",group:"ヨーグルト",name:"ダノンビオ",price:420,unit:"75g×4",dateTo:"2026-01-31", note:"まで", image:"1615075_original.jpg"},
-  {storeId:  "dai",category:"お酒",group:"発泡酒",name:"淡麗グリーンラベル",price:878,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"rpt20140210047.jpg"},
-  {storeId:  "dai",category:"お酒",group:"ビール",name:"晴れ風",price:1108,unit:"350ml×6",dateTo:"2026-01-31", note:"まで",　image:"021741b.jpg"},
-  {storeId:  "dai",category:"お酒",group:"日本酒",name:"月桂冠",price:1538,unit:"3L",dateTo:"2026-01-31", note:"まで", image:"4901030146019_01.jpg"}
+  {storeId:  "dai",category:"飲料",group:"お茶",name:"お〜いお茶",price:129,unit:"2L",dateTo:"2026-01-31", note:"まで", image:"images/f809f9780a8d3369b08f347e7383775e.jpg"},
+  {storeId:  "dai",category:"飲料",group:"炭酸",name:"コカ・コーラ",price:99,unit:"700ml",dateTo:"2026-01-31", note:"まで", image:"images/tanomail_9627095.jpg"},
+  {storeId:  "dai",category:"冷凍食品・パン",group:"冷凍パスタ",name:"大盛りスパゲッティ",price:198,unit:"1袋",dateTo:"2026-01-31", note:"まで", image:"images/4902110281668.jpg"},
+  {storeId:  "dai",category:"冷凍食品・パン",group:"冷凍おかず",name:"若鶏たれづけ唐揚げ",price:378,unit:"260g",dateTo:"2026-01-31", note:"まで",　image:"images/compass1683474414.jpg"},
+  {storeId:  "dai",category:"冷凍食品・パン",group:"菓心堂",name:"三角カステラ風蒸しケーキ",price:99,unit:"1個",dateTo:"2026-01-31", note:"まで",　image:"images/2040__5LiJ6KeS44Kr44K544OG44Op6aKo6JK444GX44Kx44O844Kt77y-MjMwN1JO.jpg"},
+  {storeId:  "dai",category:"日配",group:"ウインナー",name:"あらびきウインナー",price:238,unit:"80g×2",dateTo:"2026-01-31", note:"まで",　image:"images/2828131.jpg"},
+  {storeId:  "dai",category:"日配",group:"ヨーグルト",name:"ダノンビオ",price:420,unit:"75g×4",dateTo:"2026-01-31", note:"まで", image:"images/1615075_original.jpg"},
+  {storeId:  "dai",category:"お酒",group:"発泡酒",name:"淡麗グリーンラベル",price:878,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"images/rpt20140210047.jpg"},
+  {storeId:  "dai",category:"お酒",group:"ビール",name:"晴れ風",price:1108,unit:"350ml×6",dateTo:"2026-01-31", note:"まで",　image:"images/021741b.jpg"},
+  {storeId:  "dai",category:"お酒",group:"日本酒",name:"月桂冠",price:1538,unit:"3L",dateTo:"2026-01-31", note:"まで", image:"images/4901030146019_01.jpg"}
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
