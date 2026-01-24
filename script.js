@@ -166,6 +166,17 @@ const ITEMS = [
   {storeId:  "dai",category:"お酒",group:"日本酒",name:"月桂冠",price:1538,unit:"3L",dateTo:"2026-01-31", note:"まで", image:"images/4901030146019_01.jpg"}
 ];
 
+function meatType(name) {
+  if (name.includes("豚")) return "豚肉";
+  if (name.includes("牛")) return "牛肉";
+  if (name.includes("鶏") || name.includes("若鶏")) return "鶏肉";
+  return "その他";
+}
+
+function sortByDate(a, b) {
+  return (a.dateTo ?? "9999-12-31").localeCompare(b.dateTo ?? "9999-12-31");
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const elCategory = document.getElementById("categorySelect");
   const elStore = document.getElementById("storeSelect");
@@ -268,10 +279,42 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   noGroup.sort((a, b) => a.price - b.price);
 
+  let html = "";
+
+if (state.category === "精肉") {
+  const sections = { "豚肉": [], "牛肉": [], "鶏肉": [], "その他": [] };
+
+  for (const g of groups) {
+  const sampleName = g.variants[0]?.name ?? g.title;
+  const type = meatType(sampleName);
+  sections[type].push({ type: "group", data: g });
+}
+
+  for (const r of noGroup) {
+    const type = meatType(r.name);
+    sections[type].push({ type: "single", data: r });
+  }
+
+  for (const key of Object.keys(sections)) {
+    sections[key].sort((a, b) => sortByDate(a.data, b.data));
+
+    if (sections[key].length > 0) {
+      html += `<h2 class="meat-section">${key}</h2>`;
+      html += sections[key].map(item =>
+        item.type === "group"
+          ? cardHtmlGroupSimple(item.data, bestPrice)
+          : cardHtml(item.data, bestPrice)
+      ).join("");
+    }
+  }
+
+} else {
   const html1 = groups.map(g => cardHtmlGroupSimple(g, bestPrice)).join("");
   const html2 = noGroup.map(r => cardHtml(r, bestPrice)).join("");
+  html = html1 + html2;
+}
 
-  elResult.innerHTML = (html1 + html2) ? (html1 + html2) : emptyHtml();
+elResult.innerHTML = html || emptyHtml();
 }
 
   function cardHtml(r, bestPrice) {
