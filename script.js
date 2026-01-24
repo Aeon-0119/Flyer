@@ -302,7 +302,7 @@ if (state.category === "精肉") {
     html += `<h2 class="meat-section">${key}</h2>`;
 
     if (list.length > 0) {
-      html += `<div class="grid">`;
+      html += `<div class="grid meat-grid">`;
       html += list.map(item =>
         item.type === "group"
           ? cardHtmlGroupSimple(item.data, bestPrice)
