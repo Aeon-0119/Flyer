@@ -183,20 +183,3 @@ select, .search {
   gap: 16px;
   margin-bottom: 32px;
 }
-
-#result {
-  display: block;
-}
-
-#result > h2,
-#result > .meat-section {
-  width: 100%;
-}
-
-#result > .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 16px;
-  width: 100%;
-  margin-bottom: 32px;
-}
