@@ -33,9 +33,13 @@ select, .search {
 .grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 10px;
+
+  align-items: start;
 }
 .card {
   border: 1px solid #eee; border-radius: 12px; padding: 12px; background: #fff;
+
+  align-self: start;
 }
 .card h3 { margin: 6px 0; font-size: 15px; }
 .meta { display: flex; gap: 8px; flex-wrap: wrap; color: #555; font-size: 12px; }
