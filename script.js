@@ -285,32 +285,34 @@ if (state.category === "精肉") {
   const sections = { "豚肉": [], "牛肉": [], "鶏肉": [], "その他": [] };
 
   for (const g of groups) {
-  const sampleName = g.variants[0]?.name ?? g.title;
-  const type = meatType(sampleName);
-  sections[type].push({ type: "group", data: g });
-}
+    const sampleName = g.variants[0]?.name ?? g.title;
+    const type = meatType(sampleName);
+    sections[type].push({ type: "group", data: g });
+  }
 
   for (const r of noGroup) {
     const type = meatType(r.name);
     sections[type].push({ type: "single", data: r });
   }
 
-  for (const key of Object.keys(sections)) {
-  sections[key].sort((a, b) => sortByDate(a.data, b.data));
+  for (const key of ["豚肉", "牛肉", "鶏肉", "その他"]) {
+    const list = sections[key];
+    list.sort((a, b) => sortByDate(a.data, b.data));
 
-  if (sections[key].length > 0) {
     html += `<h2 class="meat-section">${key}</h2>`;
-    html += `<div class="grid">`;   
 
-    html += sections[key].map(item =>
-      item.type === "group"
-        ? cardHtmlGroupSimple(item.data, bestPrice)
-        : cardHtml(item.data, bestPrice)
-    ).join("");
-
-    html += `</div>`; 
+    if (list.length > 0) {
+      html += `<div class="grid">`;
+      html += list.map(item =>
+        item.type === "group"
+          ? cardHtmlGroupSimple(item.data, bestPrice)
+          : cardHtml(item.data, bestPrice)
+      ).join("");
+      html += `</div>`;
+    } else {
+      html += `<div class="card"><div class="meta">このカテゴリは現在特売なし</div></div>`;
+    }
   }
-}
 
 } else {
   const html1 = groups.map(g => cardHtmlGroupSimple(g, bestPrice)).join("");
