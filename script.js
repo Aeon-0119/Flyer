@@ -296,17 +296,21 @@ if (state.category === "精肉") {
   }
 
   for (const key of Object.keys(sections)) {
-    sections[key].sort((a, b) => sortByDate(a.data, b.data));
+  sections[key].sort((a, b) => sortByDate(a.data, b.data));
 
-    if (sections[key].length > 0) {
-      html += `<h2 class="meat-section">${key}</h2>`;
-      html += sections[key].map(item =>
-        item.type === "group"
-          ? cardHtmlGroupSimple(item.data, bestPrice)
-          : cardHtml(item.data, bestPrice)
-      ).join("");
-    }
+  if (sections[key].length > 0) {
+    html += `<h2 class="meat-section">${key}</h2>`;
+    html += `<div class="grid">`;   
+
+    html += sections[key].map(item =>
+      item.type === "group"
+        ? cardHtmlGroupSimple(item.data, bestPrice)
+        : cardHtml(item.data, bestPrice)
+    ).join("");
+
+    html += `</div>`; 
   }
+}
 
 } else {
   const html1 = groups.map(g => cardHtmlGroupSimple(g, bestPrice)).join("");
