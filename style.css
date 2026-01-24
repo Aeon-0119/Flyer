@@ -31,11 +31,13 @@ select, .search {
 .check { font-size: 14px; color: #333; display: flex; align-items: center; gap: 6px; }
 
 .grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 10px;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
   align-items: start;
 }
+
 .card {
   border: 1px solid #eee; border-radius: 12px; padding: 12px; background: #fff;
 
@@ -56,18 +58,6 @@ select, .search {
   margin-bottom: 8px;
 }
 
-.variants{ margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
-.variant-line{ display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-
-.variant-img{
-  width: 44px;
-  height: 44px;
-  object-fit: contain;   
-  background: #f2f2f2;
-  border-radius: 6px;
-  padding: 3px;
-}
-
 .variants{
   display: flex;
   gap: 12px;          
@@ -82,6 +72,7 @@ select, .search {
   padding: 6px 8px;
   border-radius: 10px;
   background: #f6f6f6;
+  flex: 1 1 180px;
 }
 
 .variant-img{
@@ -92,67 +83,6 @@ select, .search {
   background: #fff;
 }
 
-.variant-line{
-  flex: 1 1 180px; 
-}
-
-.variants {
-  display: flex;
-  gap: 16px;             
-  margin: 12px 0;
-}
-
-.variant-line {
-  flex: 1;             
-  display: flex;
-  align-items: center;
-  gap: 8px;
-
-  background: #f6f6f6;
-  padding: 10px;
-  border-radius: 12px;
-}
-
-.variant-img {
-  width: 56px;
-  height: 56px;
-  object-fit: contain;
-  background: #fff;
-  border-radius: 6px;
-}
-
-.variants{
-  display: grid;
-  grid-template-columns: 1fr 1fr; 
-  gap: 12px;
-  margin-top: 12px;
-}
-
-.variant-line{
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-
-  padding: 10px;
-  border-radius: 12px;
-  background: #f2f2f2;
-}
-
-.variant-img{
-  width: 90px;
-  height: 90px;
-  object-fit: contain;  
-  background: #fff;
-  border-radius: 10px;
-  padding: 6px;
-}
-
-.variant-line .badge{
-  margin: 0;
-}
-
 .meat-section {
   width: 100%;
   display: block;
@@ -161,25 +91,4 @@ select, .search {
   border-left: 6px solid #e74c3c;
   font-size: 20px;
   font-weight: bold;
-}
-
-.variants{
-  display: grid !important;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)) !important;
-  gap: 12px;
-  margin-top: 12px;
-}
-
-.variant-line{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 16px;
-  margin-bottom: 32px;
 }
