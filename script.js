@@ -315,9 +315,11 @@ if (state.category === "精肉") {
   }
 
 } else {
-  const html1 = groups.map(g => cardHtmlGroupSimple(g, bestPrice)).join("");
-  const html2 = noGroup.map(r => cardHtml(r, bestPrice)).join("");
-  html = html1 + html2;
+  const cards =
+    groups.map(g => cardHtmlGroupSimple(g, bestPrice)).join("") +
+    noGroup.map(r => cardHtml(r, bestPrice)).join("");
+
+  html = `<div class="grid">${cards}</div>`;
 }
 
 elResult.innerHTML = html || emptyHtml();
