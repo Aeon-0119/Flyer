@@ -180,9 +180,9 @@ const ITEMS = [
   {storeId:  "dai",category:"鮮魚", name: "カラスカレイ切身(解凍)", price: 192, unit: "100gあたり" ,dateTo:"2026-01-29", note:"まで", image:"images/0000008689_l1.jpg" },
   {storeId:  "dai",category:"鮮魚", name: "刺身5点盛", price: 599, unit: "1パック" ,dateTo:"2026-01-30", note:"まで", image:"images/DSC01022-2048x1365.jpg" },
   {storeId:  "dai",category:"鮮魚", name: "刺身用トラウトサーモンブロック(養殖・解凍)", price: 300, unit: "100gあたり" ,dateTo:"2026-01-31", note:"まで", image:"images/2743540000020.jpg" },
-  {storeId:  "dai",category:"お酒",group:"発泡酒",name:"淡麗グリーンラベル",price:878,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"images/rpt20140210047.jpg"},
-  {storeId:  "dai",category:"お酒",group:"ビール",name:"晴れ風",price:1108,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"images/021741b.jpg"},
-  {storeId:  "dai",category:"お酒",group:"日本酒",name:"月桂冠",price:1538,unit:"3L",dateTo:"2026-01-31", note:"まで", image:"images/4901030146019_01.jpg"},
+  {storeId:  "dai",category:"お酒",name:"淡麗グリーンラベル",price:878,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"images/rpt20140210047.jpg"},
+  {storeId:  "dai",category:"お酒",name:"晴れ風",price:1108,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"images/021741b.jpg"},
+  {storeId:  "dai",category:"お酒",name:"月桂冠",price:1538,unit:"3L",dateTo:"2026-01-31", note:"まで", image:"images/4901030146019_01.jpg"},
   {storeId:  "dai",category:"お酒",name:"翠ジンソーダ",price:985,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"images/81hH54jLvuL._AC_SL1500.jpg"}
 ];
 
