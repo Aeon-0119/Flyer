@@ -47,8 +47,14 @@ const ITEMS = [
   {storeId:"aeon", category:"青果", name:"レンコン", price:62, unit:"100g", dateTo:"2026-01-31", note:"まで", image:"images/renkonraw-1024x682-940x626.jpg" },
   {storeId:"aeon", category:"精肉", name:"イベリコ豚ばらスライス", price:626, unit:"260g", dateTo:"2026-01-31", note:"まで", image:"images/iberiko.jpg" },
   {storeId:"aeon", category:"精肉", name:"ベーコンかたまり", price:127, unit:"100g", dateTo:"2026-01-31", note:"まで", image:"images/product_01.jpg" },
+  {storeId:"aeon", category:"精肉", name:"牛肉ばら切り落とし", price:213, unit:"100g", dateTo:"2026-01-31", note:"まで", image:"images/20231018133621.jpg" },
+  {storeId:"aeon", category:"精肉", name:"若鶏ムネ肉(唐揚・焼肉用)", price:540, unit:"400g", dateTo:"2026-01-31", note:"まで", image:"images/mune.jpg" },
   {storeId:"aeon", category:"鮮魚", name:"天然ブリ切身", price:321, unit:"100g", dateTo:"2026-01-31", note:"まで", image:"images/buri.jpg" },
   {storeId:"aeon", category:"鮮魚", name:"真たら切身", price:300, unit:"100g", dateTo:"2026-01-31", note:"まで", image:"images/shutterstock_745707676-e1670572704620.jpg" },
+  {storeId:"aeon", category:"日配", group:"ビビタス", flavor:"プレーンヨーグルト", name:"ビビタス", price:170, unit:"400g", dateTo:"2026-01-31", note:"まで", image:"images/41zzFmzGWNL.jpg" },
+  {storeId:"aeon", category:"日配", group:"ビビタス", flavor:"プレーンヨーグルト脂肪0", name:"ビビタス", price:170, unit:"400g", dateTo:"2026-01-31", note:"まで", image:"images/bihidasu_plane_yogurt_fat_400g.jpg" },
+  {storeId:"aeon", category:"日配", name:"濃厚とうふ", price:95, unit:"400g", dateTo:"2026-01-31", note:"まで", image:"images/2941638.jpg" },
+  {storeId:"aeon", category:"冷凍食品・パン", name:"黒胡椒ニンニク餃子", price:213, unit:"12個入り", dateTo:"2026-01-31", note:"まで", image:"images/d27220-25-c798d97aacfc08de4716-8.jpg" },
   {storeId: "aeon", category: "青果", name: "ジャガイモ", price: 213, unit: "3玉", dateTo: "2026-01-06", note: "限定", image: "images/imo.jpg" },
   {storeId: "maru", category: "食品", name: "エバラ　すき焼きのたれ", price: 171, unit: "300ml",dateTo:"2026-01-31", note:"まで", image:"images/sg-11134207-7r98o-lkqwf5uiso8x7c.jpg" },
   {storeId: "maru", category: "日配", name: "濃厚もっちりやわらかい絹厚揚げ", price: 108, unit: "1つ",dateTo:"2026-01-31", note:"まで", image:"images/41jFcqCh8jL._AC_SX425.jpg" },
@@ -176,7 +182,8 @@ const ITEMS = [
   {storeId:  "dai",category:"鮮魚", name: "刺身用トラウトサーモンブロック(養殖・解凍)", price: 300, unit: "100gあたり" ,dateTo:"2026-01-31", note:"まで", image:"images/2743540000020.jpg" },
   {storeId:  "dai",category:"お酒",group:"発泡酒",name:"淡麗グリーンラベル",price:878,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"images/rpt20140210047.jpg"},
   {storeId:  "dai",category:"お酒",group:"ビール",name:"晴れ風",price:1108,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"images/021741b.jpg"},
-  {storeId:  "dai",category:"お酒",group:"日本酒",name:"月桂冠",price:1538,unit:"3L",dateTo:"2026-01-31", note:"まで", image:"images/4901030146019_01.jpg"}
+  {storeId:  "dai",category:"お酒",group:"日本酒",name:"月桂冠",price:1538,unit:"3L",dateTo:"2026-01-31", note:"まで", image:"images/4901030146019_01.jpg"},
+  {storeId:  "dai",category:"お酒",name:"翠ジンソーダ",price:985,unit:"350ml×6",dateTo:"2026-01-31", note:"まで", image:"images/81hH54jLvuL._AC_SL1500.jpg"}
 ];
 
 function meatType(name) {
